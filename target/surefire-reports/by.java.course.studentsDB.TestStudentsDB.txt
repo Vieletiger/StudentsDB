@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: by.java.course.studentsDB.TestStudentsDB
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.361 sec <<< FAILURE!
+testStudent(by.java.course.studentsDB.TestStudentsDB)  Time elapsed: 1.345 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<1> but was:<0>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:280)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:198)
+	at junit.framework.Assert.assertEquals(Assert.java:204)
+	at by.java.course.studentsDB.TestStudentsDB.testStudent(TestStudentsDB.java:19)
+
